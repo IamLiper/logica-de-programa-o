@@ -1,14 +1,19 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 int main() {
-	// Exibindo variáveis.
-	int num,resultado;
 	
-	printf("Digite um valor: ");
-	scanf("%i", &num);
+	// Declarando variáveis.
+	float valorP, valorF;
 	
-	resultado = num*(100/10);
+	// Solicitando dados ao usuário.
+	printf("Informe o valor do produto: ");
+	scanf("%f", &valorP);
 	
-	printf("resultado: %i \n", resultado);
+	// Calculando...
+	valorF = valorP + (valorP * 0.1);
+	
+	printf("O valor final do produto e = %f", valorF);
+	
+	return 0;
 }
