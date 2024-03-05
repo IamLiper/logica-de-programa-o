@@ -33,7 +33,7 @@ int main() {
 			break;	
 		
 		default:
-			printf("Opção inválida. ");
+			printf("Opção inválida!");
 					
 	}
 	return 0;
