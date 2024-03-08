@@ -12,7 +12,7 @@ int main() {
 	float nota, media, soma = 0;
 	
 	for (i = 1; i <= 3; i ++) {
-		printf("Digite a %iª nota: \n", i);
+		printf("Digite a %iÂª nota: \n", i);
 		scanf("%f", &nota);
 		
 		soma = soma + nota;
@@ -22,7 +22,7 @@ int main() {
 		if (media >= 7) {
 			printf("Aprovado!");
 		 }else if ((media >= 5) && (media < 7)) {
-			printf("Recuperação");
+			printf("RecuperaÃ§Ã£o");
 		  }else {
 		 	printf("Reprovado!");
 		 }
